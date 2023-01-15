@@ -38,7 +38,7 @@ btn_conserv_menu = ReplyKeyboardMarkup(resize_keyboard=True).add(btn_goroshek).i
 # --- btn_med_jam_menu --- #
 btn_med = KeyboardButton('/Мед')
 btn_jam = KeyboardButton('/Джем')
-btn_med_jam_menu = ReplyKeyboardMarkup(resize_keyboard=True).add(btn_goroshek).insert(btn_ikra).add(back_btn)
+btn_med_jam_menu = ReplyKeyboardMarkup(resize_keyboard=True).add(btn_med).insert(btn_jam).add(back_btn)
 # --- btn_meet_fish_menu --- #
 btn_meet_chicken = KeyboardButton('/Мясо_курки')
 btn_fish_hake = KeyboardButton('/Риба_Хек')
