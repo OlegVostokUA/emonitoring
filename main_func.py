@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup as bs
 import requests
 from seleniums import get_sourse_html
 
-resp = "/Сири_тверді" #/Крупа_рис
+#resp = "/Сири_тверді" #/Крупа_рис
 
 def send_message(resp):
     headers = {
